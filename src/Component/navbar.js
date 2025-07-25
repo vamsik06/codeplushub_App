@@ -9,7 +9,7 @@ export default function Navbar() {
       </div>
       <ul className="nav-links">
         <li>
-          <Link href="/">Home</Link>  
+          <Link href="/home">Home</Link>  
         </li>
         
         <li>

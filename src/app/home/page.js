@@ -1,8 +1,8 @@
 
 export default function HomePage() {
   return (
-    <section className="bg-blue-50 min-h-screen flex items-center justify-center ">
-      <div className="max-w-6xl w-full flex flex-col md:flex-row items-center gap-12">
+    <section className="bg-blue-50 min-h-80% flex items-center justify-center mt-10 rounded-2xl">
+      <div className="max-w-6xl w-full flex flex-col md:flex-row py-10 items-center gap-12">
         
         {/* Left Content */}
         <div className="flex-1 space-y-6">
@@ -26,12 +26,14 @@ export default function HomePage() {
         {/* Right Image */}
         <div className="flex-1">
           <img
-            src="/laptop-illustration.png" // 👈 Put your image in the public folder
+            src="/computer.png"
             alt="Laptop with code"
             className="w-full max-w-md mx-auto"
           />
+         
         </div>
       </div>
     </section>
+   
   );
 }
