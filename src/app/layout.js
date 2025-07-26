@@ -1,5 +1,6 @@
 import './globals.css';
 import Navbar from '../Component/navbar';
+import '../fontawesome/fontawesome'; // adjust path if needed
 export const metadata = {
   title: 'CodePlusHub',
   description: 'Your coding platform',
