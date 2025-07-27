@@ -5,11 +5,11 @@ import { faInstagram, faTelegramPlane, faWhatsapp } from "@fortawesome/free-bran
 export default function HomePage() {
   return (
     <>
-    <section className="bg-blue-50 min-h-80% flex items-center justify-center mt-10 rounded-2xl">
-      <div className="max-w-6xl w-full flex flex-col md:flex-row py-10 items-center gap-12">
+    <section className="bg-blue-50 min-h-[80vh] flex items-center justify-center mt-10 rounded-2xl sm:mr-0">
+      <div className="max-w-6xl w-full flex flex-col md:flex-row py-10 items-center gap-12 px-4">
         
         {/* Left Content */}
-        <div className="flex-1 space-y-6">
+        <div className="flex-1 space-y-6 text-center md:text-left">
           <h2 className="text-4xl md:text-5xl font-bold leading-tight text-gray-900">
             Learn, Practice, and <br /> Get Hired with <br /> CodePlusHub
           </h2>
@@ -17,14 +17,14 @@ export default function HomePage() {
             Daily coding challenges, job updates, and <br />
             free resources for every developer.
           </p>
-          <div className="flex space-x-4">
+          <div className="flex flex-col sm:flex-row space-y-4 sm:space-y-0 sm:space-x-4 justify-center md:justify-start">
             <Link href="/practice">
-            <button className="bg-blue-600 text-white px-6 py-3 rounded-md text-lg hover:bg-blue-700 transition">
+            <button className="bg-blue-600 text-white px-6 py-3 rounded-md text-lg hover:bg-blue-700 transition w-full sm:w-auto">
               Start Learning
             </button>
             </Link>
             <Link href="/jobs">
-            <button className="bg-white border border-gray-300 text-black px-6 py-3 rounded-md text-lg hover:bg-gray-100 transition">
+            <button className="bg-white border border-gray-300 text-black px-6 py-3 rounded-md text-lg hover:bg-gray-100 transition w-full sm:w-auto">
               Get Job Alerts
             </button>
             </Link>
@@ -36,7 +36,7 @@ export default function HomePage() {
           <img
             src="/computer.png"
             alt="Laptop with code"
-            className="w-full max-w-md mx-auto"
+            className="w-full max-w-md mx-auto lg:ml-20"
           />
          
         </div>
