@@ -1,8 +1,8 @@
-.navbar {
+/* .navbar {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: #1f4070; /* CodePlusHub green */
+    background-color: #1f4070;
     padding: 15px 30px;
     min-height: 50px;
   }
@@ -35,4 +35,4 @@
   .nav-links li a:hover {
     text-decoration: underline;
   }
-  
+   */

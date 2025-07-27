@@ -66,13 +66,13 @@ export default function HomePage() {
     <div>
       <p className="text-2xl font-bold mb-4">Follow Us</p>
       <div className="flex gap-4 text-2xl">
-        <Link href="/" className="hover:underline">
+        <Link href="https://www.instagram.com/codeplushub?igsh=Z2dkcXZ2M3FpbDF3" target="_blank" className="hover:underline">
           <FontAwesomeIcon icon={faInstagram} />
         </Link>
-        <Link href="/" className="hover:underline">
+        <Link href="https://t.me/codeplushub" target="_blank" className="hover:underline">
           <FontAwesomeIcon icon={faTelegramPlane} />
         </Link>
-        <Link href="/" className="hover:underline">
+        <Link href="https://codeplushub.openinapp.co/wtsp" target="_blank" className="hover:underline">
           <FontAwesomeIcon icon={faWhatsapp} />
         </Link>
       </div>
